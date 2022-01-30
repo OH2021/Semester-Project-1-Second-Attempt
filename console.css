@@ -1,0 +1,36 @@
+#add-to-cart,
+.cart {
+    display: none;
+    left: 40%;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+.cart {
+    border: 1px solid green;
+    position: fixed;
+    left: 80%;
+    top: 15%;
+    padding: 10px;
+}
+
+#add-to-cart:checked~.cart {
+    display: block;
+}
+
+.flex-container {
+    display: flex;
+    position: absolute;
+    top: 15%;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    text-align: center;
+    margin: 25px;
+    height: 190px;
+    padding: 15px 15px 15px 15px;
+    font-size: 20px;
+}
