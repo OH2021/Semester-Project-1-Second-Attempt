@@ -2,6 +2,7 @@ body {
     padding: 5px;
     margin: 5px;
     background-color: lightgray;
+    overflow: hidden;
 }
 
 .main-container {
@@ -21,7 +22,7 @@ body {
 
 .sign-in {
     position: absolute;
-    left: 60%;
+    left: 55%;
     top: 10%;
     border-radius: 22px;
     border: none;
@@ -207,211 +208,34 @@ body {
     text-align: center;
 }
 
-.welcome {
+.mid-box3 {
     position: absolute;
-    top: 15%;
-    right: 27%;
-    font-family: fantasy;
-    font-size: 200px;
-    color: #1B203D
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.universe {
-    position: absolute;
-    top: 55%;
-    right: 37%;
+h1 span {
+    display: block;
     font-family: fantasy;
-    font-size: 40px;
-    color: #1B203D
+    font-size: 10rem;
+    color: #1B203D;
 }
 
-@media screen and (min-width:319px) and (max-width:741px) {
+h1 {
+    font-family: fantasy;
+    color: #1B203D;
+}
+
+@media screen and (max-width:1265px) {
     body {
         padding: 1px;
         margin: 1px;
         background-color: lightgray;
     }
     .sign-in {
-        left: 20%;
-        top: 80%;
-        border-radius: 22px;
-        border: none;
-        height: 42.5px;
-        width: 120px;
-        background-color: #BAC5CF;
-        color: #0D0D0D;
-        font-family: fantasy;
-        font-size: 14px;
-        text-align: center;
-        cursor: pointer;
-    }
-    .cart-btn {
-        left: 60%;
-        top: 80%;
-        border-radius: 22px;
-        border: none;
-        height: 25px;
-        width: 40px;
-        z-index: 0;
-        padding: 10px;
-        background-color: #BAC5CF;
-        cursor: pointer;
-    }
-    .cart-icon {
-        left: 25%;
+        left: 55%;
         top: 10%;
-        height: 35px;
-        width: 30px;
-        z-index: 1;
-        cursor: pointer;
-    }
-    .GH-logo {
-        height: 140px;
-        top: 1%;
-        left: 19%;
-    }
-    .game-categories {
-        top: 105%;
-        right: 32.5%;
-        font-family: fantasy;
-        font-size: 20px;
-        color: #1B203D
-    }
-    .console-img {
-        padding: 5px;
-        right: 79.8%;
-        top: 130%;
-        height: 25px;
-        width: 25px;
-        padding: 10px
-    }
-    .console-btn {
-        padding: 5px;
-        right: 75%;
-        top: 150%;
-        height: 35px;
-        width: 80px;
-        border-radius: 22px;
-        border: none;
-        padding: 10px;
-        font-size: 15px;
-        cursor: pointer;
-        font-family: fantasy;
-        background-color: #1B203D;
-        color: #F2F2F2;
-    }
-    .vr-img {
-        right: 56.5%;
-        top: 130%;
-        height: 25px;
-        width: 25px;
-        padding: 10px
-    }
-    .vr-btn {
-        right: 51.5%;
-        top: 150%;
-        height: 35px;
-        width: 80px;
-        border-radius: 22px;
-        border: none;
-        padding: 10px;
-        font-size: 15px;
-        cursor: pointer;
-        font-family: fantasy;
-        background-color: #1B203D;
-        color: #F2F2F2;
-    }
-    .pc-img {
-        right: 33.5%;
-        top: 130%;
-        height: 25px;
-        width: 25px;
-        padding: 10px
-    }
-    .pc-btn {
-        right: 28.2%;
-        top: 150%;
-        height: 35px;
-        width: 80px;
-        border-radius: 22px;
-        border: none;
-        padding: 10px;
-        font-size: 15px;
-        cursor: pointer;
-        font-family: fantasy;
-        background-color: #1B203D;
-        color: #F2F2F2;
-    }
-    .sale-img {
-        right: 10%;
-        top: 130%;
-        height: 25px;
-        width: 25px;
-        padding: 10px
-    }
-    .sale-btn {
-        right: 5%;
-        top: 150%;
-        height: 35px;
-        width: 80px;
-        border-radius: 22px;
-        border: none;
-        padding: 10px;
-        font-size: 15px;
-        cursor: pointer;
-        font-family: fantasy;
-        background-color: #1B203D;
-        color: #F2F2F2;
-    }
-    .gaming {
-        left: 75%;
-        top: 80%;
-        font-size: 18px;
-        font-family: fantasy;
-        color: #1B203D;
-        text-align: center;
-    }
-    .community {
-        left: 39%;
-        top: 80%;
-        font-size: 18px;
-        font-family: fantasy;
-        color: #1B203D;
-        text-align: center;
-    }
-    .exciting {
-        left: 10%;
-        top: 80%;
-        font-size: 18px;
-        font-family: fantasy;
-        color: #1B203D;
-        text-align: center;
-    }
-    .welcome {
-        top: 35%;
-        right: 14%;
-        font-family: fantasy;
-        font-size: 70px;
-        color: #1B203D
-    }
-    .universe {
-        top: 52%;
-        right: 22%;
-        font-family: fantasy;
-        font-size: 20px;
-        color: #1B203D
-    }
-}
-
-@media screen and (min-width:767px) and (max-width:1025px) {
-    body {
-        padding: 1px;
-        margin: 1px;
-        background-color: lightgray;
-    }
-    .sign-in {
-        left: 32.5%;
-        top: 80%;
         border-radius: 22px;
         border: none;
         height: 42.5px;
@@ -424,8 +248,8 @@ body {
         cursor: pointer;
     }
     .cart-btn {
-        left: 57.5%;
-        top: 80%;
+        left: 75%;
+        top: 10%;
         border-radius: 22px;
         border: none;
         height: 25px;
@@ -446,27 +270,28 @@ body {
     .GH-logo {
         height: 180px;
         top: 1%;
-        left: 30%;
+        left: 0%;
     }
     .game-categories {
-        top: 90%;
-        right: 32.5%;
+        top: 55%;
+        right: 38%;
         font-family: fantasy;
         font-size: 40px;
         color: #1B203D
     }
     .console-img {
         padding: 5px;
-        right: 74.8%;
-        top: 130%;
+        right: 72.5%;
+        top: 95%;
         height: 25px;
         width: 25px;
         padding: 10px
     }
     .console-btn {
+        position: absolute;
         padding: 5px;
-        right: 72.8%;
-        top: 150%;
+        right: 71%;
+        top: 115%;
         height: 35px;
         width: 80px;
         border-radius: 22px;
@@ -480,14 +305,14 @@ body {
     }
     .vr-img {
         right: 56.5%;
-        top: 130%;
+        top: 95%;
         height: 25px;
         width: 25px;
         padding: 10px
     }
     .vr-btn {
         right: 54.5%;
-        top: 150%;
+        top: 115%;
         height: 35px;
         width: 80px;
         border-radius: 22px;
@@ -501,14 +326,14 @@ body {
     }
     .pc-img {
         right: 38.5%;
-        top: 130%;
+        top: 95%;
         height: 25px;
         width: 25px;
         padding: 10px
     }
     .pc-btn {
         right: 36%;
-        top: 150%;
+        top: 115%;
         height: 35px;
         width: 80px;
         border-radius: 22px;
@@ -522,14 +347,14 @@ body {
     }
     .sale-img {
         right: 20%;
-        top: 130%;
+        top: 95%;
         height: 25px;
         width: 25px;
         padding: 10px
     }
     .sale-btn {
         right: 17.5%;
-        top: 150%;
+        top: 115%;
         height: 35px;
         width: 80px;
         border-radius: 22px;
@@ -578,5 +403,359 @@ body {
         font-family: fantasy;
         font-size: 20px;
         color: #1B203D
+    }
+}
+
+@media screen and (max-width:900px) {
+    body {
+        padding: 1px;
+        margin: 1px;
+        background-color: lightgray;
+    }
+    .sign-in {
+        left: 30%;
+        top: 80%;
+        border-radius: 22px;
+        border: none;
+        height: 42.5px;
+        width: 120px;
+        background-color: #BAC5CF;
+        color: #0D0D0D;
+        font-family: fantasy;
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .cart-btn {
+        left: 65%;
+        top: 80%;
+        border-radius: 22px;
+        border: none;
+        height: 25px;
+        width: 40px;
+        z-index: 0;
+        padding: 10px;
+        background-color: #BAC5CF;
+        cursor: pointer;
+    }
+    .cart-icon {
+        left: 25%;
+        top: 10%;
+        height: 35px;
+        width: 30px;
+        z-index: 1;
+        cursor: pointer;
+    }
+    .GH-logo {
+        height: 140px;
+        top: 1%;
+        left: 40%;
+    }
+    .game-categories {
+        top: 100%;
+        right: 40%;
+        font-family: fantasy;
+        font-size: 20px;
+        color: #1B203D
+    }
+    .console-img {
+        padding: 5px;
+        right: 77%;
+        top: 130%;
+        height: 25px;
+        width: 25px;
+        padding: 10px
+    }
+    .console-btn {
+        padding: 5px;
+        right: 75%;
+        top: 150%;
+        height: 35px;
+        width: 80px;
+        border-radius: 22px;
+        border: none;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
+    .vr-img {
+        right: 53.5%;
+        top: 130%;
+        height: 25px;
+        width: 25px;
+        padding: 10px
+    }
+    .vr-btn {
+        right: 51.5%;
+        top: 150%;
+        height: 35px;
+        width: 80px;
+        border-radius: 22px;
+        border: none;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
+    .pc-img {
+        right: 30.5%;
+        top: 130%;
+        height: 25px;
+        width: 25px;
+        padding: 10px
+    }
+    .pc-btn {
+        right: 28.2%;
+        top: 150%;
+        height: 35px;
+        width: 80px;
+        border-radius: 22px;
+        border: none;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
+    .sale-img {
+        right: 7%;
+        top: 130%;
+        height: 25px;
+        width: 25px;
+        padding: 10px
+    }
+    .sale-btn {
+        right: 5%;
+        top: 150%;
+        height: 35px;
+        width: 80px;
+        border-radius: 22px;
+        border: none;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
+    .gaming {
+        left: 80%;
+        top: 80%;
+        font-size: 18px;
+        font-family: fantasy;
+        color: #1B203D;
+        text-align: center;
+    }
+    .community {
+        left: 45%;
+        top: 80%;
+        font-size: 18px;
+        font-family: fantasy;
+        color: #1B203D;
+        text-align: center;
+    }
+    .exciting {
+        left: 10%;
+        top: 80%;
+        font-size: 18px;
+        font-family: fantasy;
+        color: #1B203D;
+        text-align: center;
+    }
+    .mid-box3 {
+        top: 60%
+    }
+    h1 span {
+        display: block;
+        font-family: fantasy;
+        font-size: 5rem;
+        color: #1B203D;
+    }
+    h1 {
+        font-family: fantasy;
+        color: #1B203D;
+    }
+}
+
+@media screen and (max-width:656px) {
+    body {
+        padding: 1px;
+        margin: 1px;
+        background-color: lightgray;
+    }
+    .sign-in {
+        left: 30%;
+        top: 80%;
+        border-radius: 22px;
+        border: none;
+        height: 42.5px;
+        width: 120px;
+        background-color: #BAC5CF;
+        color: #0D0D0D;
+        font-family: fantasy;
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .cart-btn {
+        left: 65%;
+        top: 80%;
+        border-radius: 22px;
+        border: none;
+        height: 25px;
+        width: 40px;
+        z-index: 0;
+        padding: 10px;
+        background-color: #BAC5CF;
+        cursor: pointer;
+    }
+    .cart-icon {
+        left: 25%;
+        top: 10%;
+        height: 35px;
+        width: 30px;
+        z-index: 1;
+        cursor: pointer;
+    }
+    .GH-logo {
+        height: 140px;
+        top: 1%;
+        left: 35%;
+    }
+    .game-categories {
+        top: 100%;
+        right: 35%;
+        font-family: fantasy;
+        font-size: 20px;
+        color: #1B203D
+    }
+    .console-img {
+        padding: 5px;
+        right: 77%;
+        top: 130%;
+        height: 25px;
+        width: 25px;
+        padding: 10px
+    }
+    .console-btn {
+        padding: 5px;
+        right: 75%;
+        top: 150%;
+        height: 35px;
+        width: 80px;
+        border-radius: 22px;
+        border: none;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
+    .vr-img {
+        right: 53.5%;
+        top: 130%;
+        height: 25px;
+        width: 25px;
+        padding: 10px
+    }
+    .vr-btn {
+        right: 51.5%;
+        top: 150%;
+        height: 35px;
+        width: 80px;
+        border-radius: 22px;
+        border: none;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
+    .pc-img {
+        right: 30.5%;
+        top: 130%;
+        height: 25px;
+        width: 25px;
+        padding: 10px
+    }
+    .pc-btn {
+        right: 28.2%;
+        top: 150%;
+        height: 35px;
+        width: 80px;
+        border-radius: 22px;
+        border: none;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
+    .sale-img {
+        right: 7%;
+        top: 130%;
+        height: 25px;
+        width: 25px;
+        padding: 10px
+    }
+    .sale-btn {
+        right: 5%;
+        top: 150%;
+        height: 35px;
+        width: 80px;
+        border-radius: 22px;
+        border: none;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
+    .gaming {
+        left: 80%;
+        top: 80%;
+        font-size: 18px;
+        font-family: fantasy;
+        color: #1B203D;
+        text-align: center;
+    }
+    .community {
+        left: 45%;
+        top: 80%;
+        font-size: 18px;
+        font-family: fantasy;
+        color: #1B203D;
+        text-align: center;
+    }
+    .exciting {
+        left: 10%;
+        top: 80%;
+        font-size: 18px;
+        font-family: fantasy;
+        color: #1B203D;
+        text-align: center;
+    }
+    .mid-box3 {
+        top: 60%;
+    }
+    h1 span {
+        display: block;
+        font-family: fantasy;
+        font-size: 5rem;
+        color: #1B203D;
+    }
+    h1 {
+        font-family: fantasy;
+        color: #1B203D;
     }
 }
