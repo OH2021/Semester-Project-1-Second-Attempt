@@ -30,28 +30,31 @@ body {
     z-index: 1;
 }
 
-.text-box-pc {
+.text-box2 {
     position: relative;
-    font-size: 40px;
+    font-size: 20px;
     font-family: fantasy;
-    color: #0D0D0D;
-    left: 29%;
+    color: #1B203D;
+    text-align: center;
     top: 10%;
+    left: 15%;
+    height: 90px;
+    width: 260px;
 }
 
 .flex-container {
     display: flex;
     position: absolute;
-    top: 37.5%;
-    left: 27.5%;
-    margin: 5px;
+    top: 34.5%;
+    left: 35%;
+    margin: 1px;
 }
 
 .flex-container>div {
     background-color: #f1f1f1;
     text-align: center;
     margin: 25px;
-    height: 190px;
+    height: 170px;
     width: 90px;
     padding: 15px;
     font-size: 20px;
@@ -215,10 +218,58 @@ body {
     color: #F2F2F2;
 }
 
+.add-to-cart-btn1 {
+    position: absolute;
+    top: 50%;
+    left: 37.2%;
+    height: 40px;
+    width: 90px;
+    border-radius: 22px;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: fantasy;
+    background-color: #1B203D;
+    color: #F2F2F2;
+}
+
+.add-to-cart-btn2 {
+    position: absolute;
+    top: 50%;
+    left: 46.2%;
+    height: 40px;
+    width: 90px;
+    border-radius: 22px;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: fantasy;
+    background-color: #1B203D;
+    color: #F2F2F2;
+}
+
+.add-to-cart-btn3 {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    height: 40px;
+    width: 90px;
+    border-radius: 22px;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: fantasy;
+    background-color: #1B203D;
+    color: #F2F2F2;
+}
+
 .gaming {
     position: absolute;
-    left: 10%;
-    top: 20%;
+    left: 80%;
+    top: 80%;
     font-size: 30px;
     font-family: fantasy;
     color: #1B203D;
@@ -227,8 +278,8 @@ body {
 
 .community {
     position: absolute;
-    left: 10%;
-    top: 30%;
+    left: 50%;
+    top: 80%;
     font-size: 30px;
     font-family: fantasy;
     color: #1B203D;
@@ -237,19 +288,12 @@ body {
 
 .exciting {
     position: absolute;
-    left: 10%;
-    top: 40%;
+    left: 20%;
+    top: 80%;
     font-size: 30px;
     font-family: fantasy;
     color: #1B203D;
     text-align: center;
-}
-
-.mid-box3 {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 h1 span {
@@ -325,6 +369,7 @@ h1 {
         padding: 10px
     }
     .console-btn {
+        z-index: 4;
         padding: 5px;
         right: 71%;
         top: 115%;
@@ -347,6 +392,7 @@ h1 {
         padding: 10px
     }
     .vr-btn {
+        z-index: 4;
         right: 54.5%;
         top: 115%;
         height: 35px;
@@ -368,6 +414,7 @@ h1 {
         padding: 10px
     }
     .pc-btn {
+        z-index: 4;
         right: 36%;
         top: 115%;
         height: 35px;
@@ -389,6 +436,7 @@ h1 {
         padding: 10px
     }
     .sale-btn {
+        z-index: 4;
         right: 17.5%;
         top: 115%;
         height: 35px;
@@ -397,6 +445,67 @@ h1 {
         border: none;
         padding: 10px;
         font-size: 13px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
+    .flex-container {
+        display: flex;
+        position: absolute;
+        top: 45%;
+        left: 35%;
+        margin: 5px;
+    }
+    .flex-container>div {
+        background-color: #f1f1f1;
+        text-align: center;
+        margin: 25px;
+        height: 170px;
+        width: 90px;
+        padding: 15px;
+        font-size: 20px;
+    }
+    .add-to-cart-btn1 {
+        position: absolute;
+        top: 62%;
+        left: 38.5%;
+        height: 40px;
+        width: 90px;
+        border-radius: 22px;
+        border: none;
+        padding: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
+    .add-to-cart-btn2 {
+        position: absolute;
+        top: 62%;
+        left: 52%;
+        height: 40px;
+        width: 90px;
+        border-radius: 22px;
+        border: none;
+        padding: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
+    .add-to-cart-btn3 {
+        position: absolute;
+        top: 62%;
+        left: 65%;
+        height: 40px;
+        width: 90px;
+        border-radius: 22px;
+        border: none;
+        padding: 5px;
+        font-size: 14px;
         cursor: pointer;
         font-family: fantasy;
         background-color: #1B203D;
@@ -425,29 +534,6 @@ h1 {
         font-family: fantasy;
         color: #1B203D;
         text-align: center;
-    }
-    .welcome {
-        top: 37.5%;
-        right: 25%;
-        font-family: fantasy;
-        font-size: 100px;
-        color: #1B203D
-    }
-    .universe {
-        top: 57%;
-        right: 37.5%;
-        font-family: fantasy;
-        font-size: 20px;
-        color: #1B203D
-    }
-    .mid-box3 {
-        top: 10%;
-        left: 33%;
-        width: 70%;
-        height: 100%;
-        border: 5px solid #F2F2F2;
-        margin: 0px;
-        z-index: 1;
     }
 }
 
@@ -589,6 +675,17 @@ h1 {
         background-color: #1B203D;
         color: #F2F2F2;
     }
+    .text-box2 {
+        position: relative;
+        font-size: 15px;
+        font-family: fantasy;
+        color: #1B203D;
+        text-align: center;
+        top: 22%;
+        left: 5%;
+        height: 90px;
+        width: 260px;
+    }
     .gaming {
         left: 80%;
         top: 80%;
@@ -626,7 +723,7 @@ h1 {
         font-family: fantasy;
         color: #1B203D;
     }
-    .text-box-pc {
+    .text-box-vr {
         position: relative;
         font-size: 40px;
         font-family: fantasy;
@@ -634,18 +731,63 @@ h1 {
         left: 10%;
         top: 25%;
     }
+    .add-to-cart-btn1 {
+        position: absolute;
+        top: 70%;
+        left: 15%;
+        height: 40px;
+        width: 90px;
+        border-radius: 22px;
+        border: none;
+        padding: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
+    .add-to-cart-btn2 {
+        position: absolute;
+        top: 70%;
+        left: 34%;
+        height: 40px;
+        width: 90px;
+        border-radius: 22px;
+        border: none;
+        padding: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
+    .add-to-cart-btn3 {
+        position: absolute;
+        top: 70%;
+        left: 53%;
+        height: 40px;
+        width: 90px;
+        border-radius: 22px;
+        border: none;
+        padding: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
     .flex-container {
         display: flex;
         position: absolute;
-        top: 52.5%;
-        left: 22.5%;
+        top: 50%;
+        left: 10%;
         margin: 5px;
     }
     .flex-container>div {
         background-color: #f1f1f1;
         text-align: center;
         margin: 25px;
-        height: 190px;
+        height: 170px;
         width: 90px;
         padding: 15px;
         font-size: 20px;
@@ -827,18 +969,63 @@ h1 {
         font-family: fantasy;
         color: #1B203D;
     }
+    .add-to-cart-btn1 {
+        position: absolute;
+        top: 70%;
+        left: 16%;
+        height: 40px;
+        width: 90px;
+        border-radius: 22px;
+        border: none;
+        padding: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
+    .add-to-cart-btn2 {
+        position: absolute;
+        top: 70%;
+        left: 47%;
+        height: 40px;
+        width: 90px;
+        border-radius: 22px;
+        border: none;
+        padding: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
+    .add-to-cart-btn3 {
+        position: absolute;
+        top: 70%;
+        left: 76%;
+        height: 40px;
+        width: 90px;
+        border-radius: 22px;
+        border: none;
+        padding: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: fantasy;
+        background-color: #1B203D;
+        color: #F2F2F2;
+    }
     .flex-container {
         display: flex;
         position: absolute;
-        top: 52.5%;
-        left: 5%;
+        top: 50%;
+        left: 10%;
         margin: 5px;
     }
     .flex-container>div {
         background-color: #f1f1f1;
         text-align: center;
         margin: 25px;
-        height: 190px;
+        height: 170px;
         width: 90px;
         padding: 15px;
         font-size: 20px;

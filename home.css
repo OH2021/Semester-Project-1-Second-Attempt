@@ -288,6 +288,7 @@ h1 {
         padding: 10px
     }
     .console-btn {
+        z-index: 4;
         position: absolute;
         padding: 5px;
         right: 71%;
@@ -311,6 +312,7 @@ h1 {
         padding: 10px
     }
     .vr-btn {
+        z-index: 4;
         right: 54.5%;
         top: 115%;
         height: 35px;
@@ -332,6 +334,7 @@ h1 {
         padding: 10px
     }
     .pc-btn {
+        z-index: 4;
         right: 36%;
         top: 115%;
         height: 35px;
@@ -353,6 +356,7 @@ h1 {
         padding: 10px
     }
     .sale-btn {
+        z-index: 4;
         right: 17.5%;
         top: 115%;
         height: 35px;
