@@ -1,0 +1,155 @@
+body {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.main-container {
+    max-height: 100vh;
+}
+
+.top-container {
+    height: 25vh;
+}
+
+.mid-container {
+    height: 75vh;
+}
+
+h1 span {
+    display: block;
+    font-family: fantasy;
+    font-size: 3rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+}
+
+.website-buttons {
+    position: relative;
+    left: 37.5%;
+    height: 40px;
+    width: 120px;
+    font-size: 1rem;
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+
+.home-text {
+    padding: 2px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.alternative-ss {
+    position: relative;
+    height: 350px;
+    top: 20%;
+    left: 50%;
+}
+
+.edx-ss {
+    position: relative;
+    height: 350px;
+    top: 20%;
+    left: 50%;
+}
+
+.flexjobs-ss {
+    position: relative;
+    height: 350px;
+    top: 20%;
+    left: 50%;
+}
+
+.iloveimg-ss {
+    position: relative;
+    height: 350px;
+    top: 20%;
+    left: 50%;
+}
+
+.alternative-text {
+    position: relative;
+    padding: 2px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    bottom: 32.5%;
+    right: 15%;
+    margin-left: 30%;
+    margin-right: 40%;
+}
+
+.edx-text {
+    position: relative;
+    padding: 2px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    bottom: 32.5%;
+    right: 15%;
+    margin-left: 30%;
+    margin-right: 40%;
+}
+
+.flexjobs-text {
+    position: relative;
+    padding: 2px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    bottom: 32.5%;
+    right: 15%;
+    margin-left: 30%;
+    margin-right: 40%;
+}
+
+.iloveimg-text {
+    position: relative;
+    padding: 2px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    bottom: 32.5%;
+    right: 15%;
+    margin-left: 30%;
+    margin-right: 40%;
+}
+
+.alternative-logo {
+    position: relative;
+    top: 10%;
+    left: 20%;
+    height: 10%;
+}
+
+.edx-logo {
+    position: relative;
+    top: 10%;
+    left: 30%;
+    height: 10%;
+}
+
+.flexjobs-logo {
+    position: relative;
+    top: 10%;
+    left: 40%;
+    height: 10%;
+}
+
+.iloveimg-logo {
+    position: relative;
+    top: 10%;
+    left: 50%;
+    height: 8%;
+}
