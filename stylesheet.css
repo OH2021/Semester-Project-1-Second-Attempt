@@ -174,9 +174,9 @@ screen and (max-height: 545px) {
     .website-buttons {
         position: relative;
         left: 7.5%;
-        height: 30px;
-        width: 120px;
-        font-size: .7rem;
+        height: 20px;
+        width: 90px;
+        font-size: .5rem;
         color: white;
         background-color: gray;
         cursor: pointer;
@@ -194,25 +194,25 @@ screen and (max-height: 545px) {
     }
     .alternative-ss {
         position: relative;
-        height: 200px;
+        height: 150px;
         top: 2%;
         left: 15%;
     }
     .edx-ss {
         position: relative;
-        height: 200px;
+        height: 150px;
         top: 2%;
         left: 15%;
     }
     .flexjobs-ss {
         position: relative;
-        height: 200px;
+        height: 150px;
         top: 2%;
         left: 15%;
     }
     .iloveimg-ss {
         position: relative;
-        height: 200px;
+        height: 150px;
         top: 2%;
         left: 15%;
     }
@@ -274,14 +274,14 @@ screen and (max-height: 545px) {
     }
     .flexjobs-logo {
         position: relative;
-        top: 10%;
-        left: 40%;
+        top: 20%;
+        left: 0%;
         height: 5%;
     }
     .iloveimg-logo {
         position: relative;
-        top: 15%;
-        left: 20%;
+        top: 20%;
+        left: 10%;
         height: 5%;
     }
 }
