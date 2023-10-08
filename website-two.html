@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="containts the second website called edx.org">
-    <title>Website Two</title>
+    <title>Website Two: Edx.org</title>
     <link rel="stylesheet" href="stylesheet.css">
     <!-- Hotjar Tracking Code for https://magical-llama-8cf6dc.netlify.app/ -->
 <script>
@@ -25,35 +25,53 @@
     <div class="main-container">
         <div class="top-container">
             <div class="top-box">
-                <a href="index.html">
-                    <h1><span>Welcome</span>To my top four websites</h1>
-                </a>
+                    <h1>
+                        <span class="welcome-text">Website two:</span>
+                    <br>
+                    <span class="websites-text">Edx.org</span>
+                    </h1>
             </div>
         </div>
 
-        <nav>
-            <a href="website-one.html">
-                <button class="website-buttons">Website one</button>
-            </a>
-            <a href="website-two.html">
-                <button class="website-buttons">Website two</button>
-            </a>
-            <a href="website-three.html">
-                <button class="website-buttons">Website three</button>
-            </a>
-            <a href="website-four.html">
-                <button class="website-buttons">Website four</button>
-            </a>
-        </nav>
+        <div class="desktop-menu-container">
+            <nav class="nav-buttons">
+                <a href="index.html" class="website-buttons">Home</a>
+                <a href="website-one.html" class="website-buttons">Website one</a>
+                <a href="website-two.html" class="active-button">Website two</a>
+                <a href="website-three.html" class="website-buttons">Website three</a>
+                <a href="website-four.html" class="website-buttons">Website four</a>
+            </nav>
+        </div>
+
+        <div class="mobile-menu-container">
+            <button id="mobile-menu-button">Menu</button>
+        
+            <nav id="mobile-menu" class="nav-buttons">
+                <a href="index.html">Home</a>
+                <a href="website-one.html">Website one</a>
+                <a href="website-two.html">Website two</a>
+                <a href="website-three.html">Website three</a>
+                <a href="website-four.html">Website four</a>
+            </nav>
+        </div>
 
         <div class="mid-container">
             <img class="edx-ss" src="images/rsz_edx.org.png" alt="edx-ss">
-            <h4 class="edx-text">Edx.org is a practical and a bit of a "lifehack-website". This website have over 3000 free courses and you can learn almost anything. Also if you just want to browse all their different courses you can just click "explore all courses" under
+            <p class="edx-text">Edx.org is a practical and a bit of a "lifehack-website". This website have over 3000 free courses and you can learn almost anything. Also if you just want to browse all their different courses you can just click "explore all courses" under
                 the search field and you'll get tons of different courses, even stuff you've never heard of before or thought could be a course at a college. There's not only courses from one college but from many different ones around the world. Many
                 of which are very prestigeous like Harvard, Oxford and so on. It varies from one college to another on how many courses are available, but you can definetly find something you're interested in.
-            </h4>
+            </p>
         </div>
     </div>
+
+    <footer class="footer">
+        <img class="footer-images" src="images/alternative-me-logo.png" alt="alternative-logo">
+        <img class="footer-images" src="images/edx-logo-elm.jpg" alt="edx-logo">
+        <img class="footer-images" src="images/fj-logo.jpg" alt="flexjobs-logo">
+        <img class="footer-images" src="images/iloveimg.jpg" alt="iloveimg-logo">
+    </footer>
+
+    <script src="mobile.js"></script>
 </body>
 
 </html>

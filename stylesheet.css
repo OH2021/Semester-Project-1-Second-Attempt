@@ -1,287 +1,262 @@
+/* Base styles */
 body {
-    padding: 1rem;
-    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-container {
-    max-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    flex: 1;
+    margin-bottom: 150px;
 }
 
-.top-container {
-    height: 25vh;
-}
-
-.mid-container {
-    height: 75vh;
-}
-
-h1 span {
-    display: block;
-    font-family: fantasy;
-    font-size: 3rem;
-}
-
-h1 {
+.top-box {
     text-align: center;
-    font-family: fantasy;
-    color: black;
+    font-size: 40px;
+
 }
 
-.website-buttons {
-    position: relative;
-    left: 37.5%;
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #444;
+    padding: 5px;
+    text-align: center;
+}
+
+.footer-images {
+    width: 50px;
     height: 40px;
-    width: 120px;
-    font-size: 1rem;
-    color: white;
-    background-color: gray;
-    cursor: pointer;
-    text-align: center;
-    border: none;
+    margin: 10px;
 }
 
 .home-text {
-    padding: 2px;
+    max-width: 600px;
+    margin: 130px auto 0 auto;
+    margin-top: 220px;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
-    margin-top: 5%;
-    margin-left: 30%;
-    margin-right: 30%;
 }
 
 .alternative-ss {
-    position: relative;
-    height: 350px;
-    top: 20%;
-    left: 50%;
+    width: 700px;
+    height: 295px;
+    margin: 70px auto 0 auto;
+    display: block;   
 }
 
 .edx-ss {
-    position: relative;
-    height: 350px;
-    top: 20%;
-    left: 50%;
+    width: 700px;
+    height: 295px;
+    margin: 70px auto 0 auto;
+    display: block; ;
 }
 
 .flexjobs-ss {
-    position: relative;
-    height: 350px;
-    top: 20%;
-    left: 50%;
+    width: 700px;
+    height: 295px;
+    margin: 70px auto 0 auto;
+    display: block; 
 }
 
 .iloveimg-ss {
-    position: relative;
-    height: 350px;
-    top: 20%;
-    left: 50%;
+    width: 700px;
+    height: 295px;
+    margin: 70px auto 0 auto;
+    display: block; 
 }
 
 .alternative-text {
-    position: relative;
-    padding: 2px;
+    max-width: 700px;
+    margin: 20px auto 0 auto;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
-    bottom: 32.5%;
-    right: 15%;
-    margin-left: 30%;
-    margin-right: 40%;
 }
 
 .edx-text {
-    position: relative;
-    padding: 2px;
+    max-width: 700px;
+    margin: 20px auto 0 auto;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
-    bottom: 32.5%;
-    right: 15%;
-    margin-left: 30%;
-    margin-right: 40%;
 }
 
 .flexjobs-text {
-    position: relative;
-    padding: 2px;
+    max-width: 700px;
+    margin: 20px auto 0 auto;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
-    bottom: 32.5%;
-    right: 15%;
-    margin-left: 30%;
-    margin-right: 40%;
 }
 
 .iloveimg-text {
-    position: relative;
-    padding: 2px;
+    max-width: 700px;
+    margin: 20px auto 0 auto;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
-    bottom: 32.5%;
-    right: 15%;
-    margin-left: 30%;
-    margin-right: 40%;
 }
 
-.alternative-logo {
-    position: relative;
-    top: 10%;
-    left: 20%;
-    height: 10%;
+.mobile-menu-container {
+    display: none;
 }
 
-.edx-logo {
-    position: relative;
-    top: 10%;
-    left: 30%;
-    height: 10%;
+.desktop-menu-container {
+    display: block;
 }
 
-.flexjobs-logo {
-    position: relative;
-    top: 10%;
-    left: 40%;
-    height: 10%;
+#mobile-menu {
+    display: none;
 }
 
-.iloveimg-logo {
-    position: relative;
-    top: 10%;
-    left: 50%;
-    height: 8%;
-}
 
-@media screen and (max-width:495px),
-screen and (max-height: 545px) {
-    body {
-        padding: .4rem;
-        margin: .4rem;
+/* For mobile phones */
+@media (max-width: 768px) {
+    .top-box {
+        text-align: center;
     }
-    h1 span {
+
+    .nav-buttons {
+        text-align: center;
+    }
+
+    .mobile-menu-container {
         display: block;
-        font-family: fantasy;
-        font-size: 1rem;
+        height: 0;
     }
-    h1 {
+
+    #mobile-menu.active {
+    display: block;
+    text-align: center;
+    background-color: #444;
+    position: absolute;
+    top: 425px;
+    left: 150px;
+    width: 50%;
+    z-index: 1;
+}
+
+    #mobile-menu a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflowed text */
+    max-width: 100%; /* Limit the width to the container */
+}
+
+    #mobile-menu a:hover {
+    background-color: #555;
+}
+
+    #mobile-menu-button {
+    display: block;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+
+    .footer-images {
+        width: auto;
+        max-width: none;
+        margin: 0 10px;
+    }
+    
+    .desktop-menu-container {
+        display: none; /* Hide the desktop menu container for mobile devices */
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+    .desktop-menu-container.active {
+        display: block;
+        /* Other styles for the desktop menu container */
+    }
+
+}
+
+/* For tablet screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .main-container {
+        padding: 10px;
+    }
+
+    .nav-buttons {
         text-align: center;
-        font-family: fantasy;
-        color: black;
-        font-size: .5rem;
     }
+
     .website-buttons {
-        position: relative;
-        left: 7.5%;
-        height: 20px;
-        width: 90px;
-        font-size: .5rem;
+        display: inline-block;
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #333;
         color: white;
-        background-color: gray;
-        cursor: pointer;
-        text-align: center;
-        border: none;
+        border: 1px solid #333;
+        border-radius: 5px;
+        margin: 5px; 
     }
-    .home-text {
-        padding: 2px;
-        font-size: 20px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-align: left;
-        margin-top: 5%;
-        margin-left: 30%;
-        margin-right: 30%;
+    
+    .active-button {
+        display: inline-block;
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #777;
+        color: white;
+        border: 1px solid #777;
+        border-radius: 5px;
+        margin: 5px;
     }
-    .alternative-ss {
-        position: relative;
-        height: 150px;
-        top: 2%;
-        left: 15%;
-    }
-    .edx-ss {
-        position: relative;
-        height: 150px;
-        top: 2%;
-        left: 15%;
-    }
-    .flexjobs-ss {
-        position: relative;
-        height: 150px;
-        top: 2%;
-        left: 15%;
-    }
-    .iloveimg-ss {
-        position: relative;
-        height: 150px;
-        top: 2%;
-        left: 15%;
-    }
-    .alternative-text {
-        position: relative;
-        padding: 2px;
-        font-size: 20px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-align: left;
-        bottom: 0%;
-        right: 15%;
-        margin-left: 30%;
-        margin-right: 40%;
-    }
-    .edx-text {
-        position: relative;
-        padding: 2px;
-        font-size: 20px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-align: left;
-        bottom: 0%;
-        right: 15%;
-        margin-left: 30%;
-        margin-right: 40%;
-    }
-    .flexjobs-text {
-        position: relative;
-        padding: 2px;
-        font-size: 20px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-align: left;
-        bottom: 0%;
-        right: 15%;
-        margin-left: 30%;
-        margin-right: 40%;
-    }
-    .iloveimg-text {
-        position: relative;
-        padding: 2px;
-        font-size: 20px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-align: left;
-        bottom: 0%;
-        right: 15%;
-        margin-left: 30%;
-        margin-right: 40%;
-    }
-    .alternative-logo {
-        position: relative;
-        top: 10%;
-        left: 20%;
-        height: 5%;
-    }
-    .edx-logo {
-        position: relative;
-        top: 10%;
-        left: 30%;
-        height: 5%;
-    }
-    .flexjobs-logo {
-        position: relative;
-        top: 20%;
-        left: 0%;
-        height: 5%;
-    }
-    .iloveimg-logo {
-        position: relative;
-        top: 20%;
-        left: 10%;
-        height: 5%;
+
+    .footer-images {
+        width: auto;
+        max-width: none;
+        margin: 0 10px;
     }
 }
+
+/* For desktop screens */
+@media (min-width: 1025px) {
+    .top-box {
+        text-align: center;
+    }
+
+    .nav-buttons {
+        text-align: center;
+    }
+
+    .website-buttons {
+        display: inline-block;
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #333;
+        color: white;
+        border: 1px solid #333;
+        border-radius: 5px;
+        margin: 5px; 
+    }
+    
+    .active-button {
+        display: inline-block;
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #777;
+        color: white;
+        border: 1px solid #777;
+        border-radius: 5px;
+        margin: 5px;
+    }
+
+    .footer-images {
+        width: auto;
+        max-width: none;
+        margin: 0 10px;
+    }
+}
+

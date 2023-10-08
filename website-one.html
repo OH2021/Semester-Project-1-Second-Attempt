@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="containts the first website called alternative.me">
-    <title>Website One</title>
+    <title>Website One: Alternative.me</title>
     <link rel="stylesheet" href="stylesheet.css">
     <!-- Hotjar Tracking Code for https://magical-llama-8cf6dc.netlify.app/ -->
 <script>
@@ -25,35 +25,53 @@
     <div class="main-container">
         <div class="top-container">
             <div class="top-box">
-                <a href="index.html">
-                    <h1><span>Welcome</span>To my top four websites</h1>
-                </a>
+                <h1>
+                    <span class="welcome-text">Website one:</span>
+                    <br>
+                    <span class="websites-text">Alternative.me</span>
+                </h1>  
             </div>
         </div>
 
-        <nav>
-            <a href="website-one.html">
-                <button class="website-buttons">Website one</button>
-            </a>
-            <a href="website-two.html">
-                <button class="website-buttons">Website two</button>
-            </a>
-            <a href="website-three.html">
-                <button class="website-buttons">Website three</button>
-            </a>
-            <a href="website-four.html">
-                <button class="website-buttons">Website four</button>
-            </a>
-        </nav>
+        <div class="desktop-menu-container">
+            <nav class="nav-buttons">
+                <a href="index.html" class="website-buttons">Home</a>
+                <a href="website-one.html" class="active-button">Website one</a>
+                <a href="website-two.html" class="website-buttons">Website two</a>
+                <a href="website-three.html" class="website-buttons">Website three</a>
+                <a href="website-four.html" class="website-buttons">Website four</a>
+            </nav>
+        </div>
+
+        <div class="mobile-menu-container">
+            <button id="mobile-menu-button">Menu</button>
+        
+            <nav id="mobile-menu" class="nav-buttons">
+                <a href="index.html">Home</a>
+                <a href="website-one.html">Website one</a>
+                <a href="website-two.html">Website two</a>
+                <a href="website-three.html">Website three</a>
+                <a href="website-four.html">Website four</a>
+            </nav>
+        </div>
 
         <div class="mid-container">
             <img class="alternative-ss" src="images/rsz_alternative.me.png" alt="alternative-ss">
-            <h4 class="alternative-text">Alternative.me is a website that finds free alternatives for software with a paywall. E.g. you can search for Spotify (which is a software with a paywall, if you want to use the premium verison) in the search field, hit enter and you will
+            <p class="alternative-text">Alternative.me is a website that finds free alternatives for software with a paywall. E.g. you can search for Spotify (which is a software with a paywall, if you want to use the premium verison) in the search field, hit enter and you will
                 get a window with information about Spotify and bellow you'll see a list with alternatives to Spotify which you can use. The alternatives isn't just software, but also possible to use in your browser. If you click on one of the alternatives
                 you can visit their homepage by clicking the hyperlink in the window with the information for the respective alternative you clicked on.
-            </h4>
+            </p>
         </div>
     </div>
+
+    <footer class="footer">
+        <img class="footer-images" src="images/alternative-me-logo.png" alt="alternative-logo">
+        <img class="footer-images" src="images/edx-logo-elm.jpg" alt="edx-logo">
+        <img class="footer-images" src="images/fj-logo.jpg" alt="flexjobs-logo">
+        <img class="footer-images" src="images/iloveimg.jpg" alt="iloveimg-logo">
+    </footer>
+
+    <script src="mobile.js"></script>
 </body>
 
 </html>
