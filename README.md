@@ -1,8 +1,6 @@
-# Your project title
+# Semester-Project-1-Second-Attempt
 
 ![semester-project1](https://github.com/OH2021/Semester-Project-1-Second-Attempt/assets/77490624/d1a87c3b-86e3-487f-8771-2385c2b3f9ec)
-
-A simple overview of the use/purpose of the project.
 
 ## Description
 
