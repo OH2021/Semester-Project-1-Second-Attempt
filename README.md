@@ -1,6 +1,6 @@
 # Your project title
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![semester-project1](https://github.com/OH2021/Semester-Project-1-Second-Attempt/assets/77490624/d1a87c3b-86e3-487f-8771-2385c2b3f9ec)
 
 A simple overview of the use/purpose of the project.
 
